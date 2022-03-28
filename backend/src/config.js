@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Medieval Fighter";
 const description = "Medieval Seller Street Fighter";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfs://bafybeig5eooombnz264flwzsr3wcv4cxdjhzjwq6luuuakgfqxcktdssaq"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -56,7 +56,7 @@ const CONTRACT_SYMBOL = 'MS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x6e2D265aF5de2b0aBB6e8647DDe40bca577d5588';
 const TREASURY_ADDRESS = '0x6e2D265aF5de2b0aBB6e8647DDe40bca577d5588';
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 100; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = .0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
