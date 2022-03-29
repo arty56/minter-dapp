@@ -9,12 +9,12 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Medieval Fighter";
 const description = "Medieval Seller Street Fighter";
-const baseUri = "ipfs://bafybeig5eooombnz264flwzsr3wcv4cxdjhzjwq6luuuakgfqxcktdssaq"; // This will be replaced automatically
+const baseUri = "ipfs://updateuri"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 10000,
     layersOrder: [
       { name: "Background" },
       { name: "Background Edge" },
@@ -51,7 +51,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'MEDIEVALSELLER';
+const CONTRACT_NAME = 'Medievalseller';
 const CONTRACT_SYMBOL = 'MS';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x6e2D265aF5de2b0aBB6e8647DDe40bca577d5588';
@@ -61,10 +61,10 @@ const MINT_PRICE = .0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MAT
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-27T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-04-01T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-03-27T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-03-28T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x6e2D265aF5de2b0aBB6e8647DDe40bca577d5588"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
