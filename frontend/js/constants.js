@@ -1,9 +1,9 @@
-const contractAddress = "0x7e385d41DD0246eEC598eB2c49b29c9555D31fee"; //Replace with your own contract address
+const contractAddress = "Y0x6eA9a9877A78b687CacaEf0C6A0Cc801C74E4c81"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Medieval Street Fighters NFT Project!!";
+const welcome_h1 = "Welcome to the Medieval Mongers NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Medieval Street Fighters NFT Project is a collection of Medieval Sellers Street Fighting.';
+const welcome_p = 'The Medieval Mongers NFT Project is a cool collection medieval sellers with their coin bag. ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
