@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Medieval Mongers NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Medieval Mongers NFT Project is a cool collection medieval sellers with their coin bag. ';
+const welcome_p = 'The Medieval Mongers NFT Project is a cool collection of different medieval sellers with their coin bag. ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
